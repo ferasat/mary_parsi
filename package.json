@@ -3,6 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
+        "serve": "php artisan serve",
+        "opt": "php artisan optimize:clear",
         "build": "vite build"
     },
     "devDependencies": {

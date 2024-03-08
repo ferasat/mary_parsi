@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html,body{
+    direction: rtl !important;
+}
 /* Table pagination: active page highlight */
 .mary-table-pagination span[aria-current="page"] > span {
     @apply bg-primary text-base-100
